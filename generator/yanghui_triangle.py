@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-#!/usr/bin/env python
-def triangles():
+#!/usr/bin/env python 
+def triangle():
     L = [1]
     while True:
         yield L
