@@ -6,4 +6,3 @@ def triangles():
         yield L
         L = [sum(i) for i in zip([0]+L, L+[0])]
 
-    print(L)
