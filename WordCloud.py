@@ -2,7 +2,7 @@ import cv2
 import wordcloud
 import jieba
 
-mk = cv2.imread('N:\\codes\\Python\\generator\\20200530135116.png')
+mk = cv2.imread('N:\\codes\\Python\\generator\\20200530135116.png') #
 w = wordcloud.WordCloud(width=1000,
                         height=700,
                         background_color='white',
