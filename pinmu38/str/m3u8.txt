@@ -1,0 +1,40 @@
+GET https://v.pinimg.com/videos/mc/hls/38/20/a0/3820a0682a5312c71c0bd9a831cfcc7c.m3u8 HTTP/1.1
+Host: v.pinimg.com
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+Accept: */*
+Origin: https://www.pinterest.com
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.pinterest.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+
+HTTP/1.1 200 OK
+ETag: "85de7d09c9ffdb606af2dcfaff25edbc"
+Accept-Ranges: bytes
+Content-Length: 566
+Cache-Control: max-age=28571267
+Connection: keep-alive
+Akamai-Mon-Iucid-Del: 506146
+Content-Type: application/x-mpegURL
+Vary: Origin
+X-CDN: akamai
+Access-Control-Expose-Headers: X-CDN
+Access-Control-Max-Age: 86400
+Access-Control-Allow-Methods: GET
+Timing-Allow-Origin: https://www.pinterest.com
+Access-Control-Allow-Origin: https://www.pinterest.com
+Access-Control-Allow-Credentials: false
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-INDEPENDENT-SEGMENTS
+#EXT-X-STREAM-INF:BANDWIDTH=632056,AVERAGE-BANDWIDTH=557482,CODECS="avc1.4d4020,mp4a.40.5",RESOLUTION=360x448,FRAME-RATE=30.000
+3820a0682a5312c71c0bd9a831cfcc7c_360w.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=441048,AVERAGE-BANDWIDTH=374496,CODECS="avc1.4d4020,mp4a.40.5",RESOLUTION=240x296,FRAME-RATE=30.000
+3820a0682a5312c71c0bd9a831cfcc7c_240w.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=803136,AVERAGE-BANDWIDTH=707820,CODECS="avc1.4d4020,mp4a.40.5",RESOLUTION=480x596,FRAME-RATE=30.000
+3820a0682a5312c71c0bd9a831cfcc7c_480w.m3u8

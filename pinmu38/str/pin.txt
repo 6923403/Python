@@ -1,0 +1,43 @@
+GET https://www.pinterest.com/pin/834080793480309007/?nic_v1=1aOj32wLE8yMHqxAHf585aVH%2Flp6R9xDM%2Bej4lGnSaAE9LAB30SsFSXskGUrVPSELb HTTP/1.1
+Host: www.pinterest.com
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: same-origin
+Sec-Fetch-Dest: empty
+Referer: https://www.pinterest.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: c
+
+
+
+
+HTTP/1.1 200 OK
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+Vary: User-Agent, Accept-Encoding
+x-ua-compatible: IE=edge
+Content-Security-Policy: script-src 'nonce-8c6689752daf87e2613c2145218492ad' 'strict-dynamic' 'report-sample' 'self' *.pinterest.com *.pinimg.com *.google.com connect.facebook.net *.google-analytics.com *.facebook.com *.googleadservices.com *.doubleclick.net *.googletagmanager.com *.adyen.com *.adyenpayments.com *.bnc.lt bnc.lt *.branch.io cdn.ampproject.org *.cdn.ampproject.org radar.cedexis.com *.cedexis-test.com 'unsafe-inline' 'unsafe-eval'; connect-src 'self' *.pinimg.com *.pinterest.com accounts.google.com *.branch.io *.facebook.com *.dropboxapi.com *.adyen.com *.adyenpayments.com cdn.ampproject.org *.cdn.ampproject.org pinterest-aberdeen.s3.amazonaws.com pinterest-anaheim.s3.amazonaws.com pinterest-media-upload.s3.amazonaws.com pinterest-poughkeepsie.s3.amazonaws.com pinterest-waterloo.s3.amazonaws.com pinterest-plymouth.s3.amazonaws.com *.cedexis.com *.cedexis-radar.net blob: *.appcues.com *.appcues.net wss://*.appcues.net *.bugsnag.com; media-src 'self' *.pinimg.com blob: data:; object-src 'self'; form-action 'self'; worker-src 'self' blob: https://www-pinterest-com.cdn.ampproject.org 'unsafe-inline'; base-uri 'none'; report-uri /_/_/csp_report/?rid=7283514377420187; frame-ancestors 'self'
+content-security-policy-report-only: frame-src 'self' *.google.com *.pinimg.com *.pinterest.com *.pinterdev.com *.facebook.com player.grabnetworks.com www.kickstarter.com staging.slideshare.com player.anyclip.com verify.vote.org movieclips.com scache.vevo.com *.adyen.com www.voteplz.org player.hulu.com www.crackle.com www.dailymotion.com cache.vevo.com www.slideshare.net crackle.com embed.5min.com embed.ted.com register.vote.org absentee.vote.org www.crunchyroll.com videoplayer.vevo.com w.soundcloud.com embed-ssl.ted.com *.youtube.com *.ytimg.com player.vimeo.com vine.co scache.vevo.com bid.g.doubleclick.net *.fls.doubleclick.net pinterest-waterloo.s3.amazonaws.com pinlogs.s3.amazonaws.com advertising-delivery-metric-reports.s3.amazonaws.com *.appcues.com; report-uri /_/_/csp_report/?reportonly
+Cache-Control: no-cache, no-store, must-revalidate
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+x-frame-options: SAMEORIGIN
+Content-Type: text/html; charset=utf-8
+x-async-render: true
+Trailer: x-pinterest-sli-streamed-response-type
+x-envoy-upstream-service-time: 255
+pinterest-generated-by: coreapp-webapp-prod-0a010b20
+pinterest-version: ec1b036
+x-pinterest-rid: 7283514377420187
+Date: Wed, 15 Jul 2020 04:51:00 GMT
+Connection: keep-alive
+Connection: Transfer-Encoding
+X-CDN: akamai
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
+Content-Length: 108277
+
