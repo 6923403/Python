@@ -28,4 +28,8 @@ if __name__ == '__main__':
 mu38 
 open .mu38
 ts and key use ffmpeg
+re:
+https://github.com/duhaijun/m3u8-to-mp4
+https://github.com/mrzhangfelix/m3u8Downloader
+https://github.com/DVLZY/video_download_sanjieke.cn
 """
