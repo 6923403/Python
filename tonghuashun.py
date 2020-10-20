@@ -14,16 +14,14 @@ class TongHua(object):
         self.url = 'http://www.10jqka.com.cn/'
         self.m_news = requests.get(self.url, headers=headers)
         self.m_news.encoding = 'GBK'
-    #pass
 
     def get_Topnews(self):
         print("TopNews_搜索结果".center(20, '*'))
         soup = BeautifulSoup(self.m_news.text, 'html.parser')
         datalist = soup.find_all(class_="item_txt")
-        #print(datalist, '\n')
-        title = soup.h4.text + soup.h1.text
-        print(title)
+        print(datalist, '\n')
 
+        print(datalist['href'])
         for news in datalist:
             type_a = news.select('a')
             if len(type_a) > 0:
