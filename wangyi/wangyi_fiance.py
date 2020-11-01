@@ -16,7 +16,7 @@ class WangYi(object):
         #new
         self.url = 'https://money.163.com/'
         self.data = requests.get(self.url, headers=headers)
-        self.xlsxname = "C:\\Users\\Vcvc\\Desktop\\WangyiFinance.xlsx"
+        self.xlsxname = "C:\\Users\\Vcvc\\Desktop\\News_Finance.xlsx"
 
         #stock
         self.stockurl = 'https://money.163.com/stock/'
@@ -28,7 +28,6 @@ class WangYi(object):
         self.indexdata = requests.get(self.indexurl, headers=headers)
 
     def getTopNew(self):
-        print("要闻 ")
         soup = BeautifulSoup(self.data.text, "lxml")
         datalist = soup.select("ul li h2")
         #datalist = soup.find_all(class_="topnews_nlist topnews_nlist1")
@@ -44,7 +43,7 @@ class WangYi(object):
         style2.alignment = alignment
         """
 
-        wsheet.write(4, 0, u'新闻标题', style)
+        wsheet.write(4, 0, u'网易新闻标题', style)
         wsheet.write(4, 1, u'新闻链接', style)
         wsheet.write(4, 2, u'新闻时间', style)
         wsheet.write(4, 3, u'内容简介', style)
@@ -193,13 +192,14 @@ class WangYi(object):
 
 
 
-if __name__ == '__main__':
-    Wy = WangYi()
-    try:
-        Wy.getTopNew()
-        Wy.getlist2()
-        #stock
-        Wy.getstock()
-        Wy.getindex()  # 主页原创栏目右边
-    except Exception:
-        print("获取TopNew失败")
+#if __name__ == '__main__':
+    def main(self):
+        Wy = WangYi()
+        try:
+            Wy.getTopNew()
+            Wy.getlist2()
+            #stock
+            Wy.getstock()
+            Wy.getindex()  # 主页原创栏目右边
+        except Exception:
+            print("获取TopNew失败")
