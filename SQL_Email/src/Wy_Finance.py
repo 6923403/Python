@@ -14,6 +14,8 @@ from email.header import Header
 """
 https://blog.csdn.net/XIAXU0101/article/details/104417413
 https://www.jb51.net/article/200771.htm
+https://www.cnblogs.com/mlp1234/p/9933919.html
+https://www.jianshu.com/p/abb2d6e91c1f
 """
 
 headers = {
