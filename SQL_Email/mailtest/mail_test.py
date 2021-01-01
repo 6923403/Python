@@ -9,10 +9,10 @@ if __name__ == '__main__':
         print(1)
         try:
             print(2)
-            from_addr = "5435@163.com"
-            passwd = "NRRTICETCSIPZGWH"
+            from_addr = "XXX@163.com"
+            passwd = "" #授权码 不是密码
             mailhost = "smtp.163.com"
-            to_addr = "6923403@qq.com"
+            to_addr = "XXX@qq.com"
 
             wy_mail = smtplib.SMTP()  # 建立SMTP对象
             wy_mail.connect(mailhost, 25)  # 25为SMTP常用端口
@@ -29,8 +29,8 @@ if __name__ == '__main__':
 
             # 加工邮件message格式
             msg = MIMEText(content, 'plain', 'utf-8')
-            msg['From'] = "Name1<5435@163.com>"
-            msg['To'] = "Name2<6923403@qq.com>"
+            msg['From'] = "Name1<xxxx@163.com>"
+            msg['To'] = "Name2<xxxx@qq.com>"
             msg['subject'] = Header(subject, 'utf-8')
 
             try:
